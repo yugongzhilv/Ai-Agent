@@ -140,7 +140,7 @@ vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
 
-# MCP conlinefiguration (contains API keys)
+# MCP configuration (contains API keys)
 .mcp.json
 # mini-cc configuration
 .mini-cc/

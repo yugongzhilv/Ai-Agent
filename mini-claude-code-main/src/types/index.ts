@@ -140,24 +140,6 @@ export interface ContextBlock {
  */
 export type AgentType = 'explore' | 'code' | 'plan' | string;
 
-/**
- * Task input for spawning subagents
- */
-export interface TaskInput {
-    description: string;  // Short description (3-5 words) for progress display
-    prompt: string;       // Detailed instructions for the subagent
-    agent_type: AgentType;
-}
-
-/**
- * Agent type configuration
- */
-export interface AgentTypeConfig {
-    description: string;
-    tools: '*' | string[];
-    prompt: string;
-}
-
 // ---------- UI Types ----------
 
 /**
@@ -172,15 +154,6 @@ export interface DisplayToolInput {
     old_string?: string;
     new_string?: string;
     [key: string]: unknown;
-}
-
-/**
- * Todo statistics
- */
-export interface TodoStats {
-    total: number;
-    completed: number;
-    in_progress: number;
 }
 
 /**

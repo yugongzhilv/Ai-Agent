@@ -112,7 +112,7 @@ export class MCPClientManager {
         }, {
             capabilities: {
                 tools: {},
-            },
+            } as any,
         });
 
         await client.connect(transport);

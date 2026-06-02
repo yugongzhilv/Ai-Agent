@@ -115,16 +115,17 @@ async function main() {
         const todoInfo = todoStats.total > 0 ? {
             total: todoStats.total,
             completed: todoStats.completed,
-            in_progress: todoStats.in_progress
+            in_progress: todoStats.in_progress,
+            pending: todoStats.pending
         } : undefined;
-        
+
         // Get skills and custom agents count
         const skillCount = findAllSkills().length;
         const agentCount = getCustomAgentTypeNames().length;
-        const extendedStats = (skillCount > 0 || agentCount > 0) 
-            ? { skillCount, agentCount } 
+        const extendedStats = (skillCount > 0 || agentCount > 0)
+            ? { skillCount, agentCount }
             : undefined;
-        
+
         ui.printStatusBar(mcpServerCount, stats.percentUsed, stats.messageCount, todoInfo, extendedStats);
     };
 
@@ -407,16 +408,17 @@ async function main() {
                     const todoInfo = todoStats.total > 0 ? {
                         total: todoStats.total,
                         completed: todoStats.completed,
-                        in_progress: todoStats.in_progress
+                        in_progress: todoStats.in_progress,
+                        pending: todoStats.pending
                     } : undefined;
-                    
+
                     // Get skills and custom agents count
                     const skillCount = findAllSkills().length;
                     const agentCount = getCustomAgentTypeNames().length;
-                    const extendedStats = (skillCount > 0 || agentCount > 0) 
-                        ? { skillCount, agentCount } 
+                    const extendedStats = (skillCount > 0 || agentCount > 0)
+                        ? { skillCount, agentCount }
                         : undefined;
-                    
+
                     ui.updateStatusBar(mcpServerCount, stats.percentUsed, stats.messageCount, todoInfo, extendedStats);
                 }
             });

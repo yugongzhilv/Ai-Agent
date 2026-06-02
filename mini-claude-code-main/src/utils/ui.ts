@@ -1,7 +1,7 @@
 import chalk from 'chalk';
 import { AUTO_COMPACT_THRESHOLD_RATIO } from '../config/environment';
-import type { Message, DisplayToolInput, TodoStats, ExtendedStats } from '../types';
-import { TODO_BOARD } from '../core/todo-manager';
+import type { Message, DisplayToolInput, ExtendedStats } from '../types';
+import { TODO_BOARD, type TodoStats } from '../core/todo-manager';
 
 /**
  * Content block interface for extraction

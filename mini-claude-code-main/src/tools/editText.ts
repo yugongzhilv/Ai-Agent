@@ -13,7 +13,7 @@ export function runEdit(inputObj: EditTextToolInput): string {
             throw new Error("edit_text.replace missing find");
         }
         const replace = inputObj.replace || "";
-        const replaced = text.replace(find, replace);
+        const replaced = text.replaceAll(find, replace);
         fs.writeFileSync(filePath, replaced, 'utf-8');
         return `replace done (${Buffer.byteLength(replaced, 'utf-8')} bytes)`;
     } else if (action === "insert") {
