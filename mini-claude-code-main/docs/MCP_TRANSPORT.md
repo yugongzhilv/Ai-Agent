@@ -2,7 +2,7 @@
 
 ## Overview
 
-Mini Claude Code supports three MCP transport types, allowing you to choose the appropriate transport protocol for different use cases.
+Ai Agent supports three MCP transport types, allowing you to choose the appropriate transport protocol for different use cases.
 
 ## Transport Type Comparison
 

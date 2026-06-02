@@ -1,21 +1,21 @@
 {
-  "name": "mini-claude-code",
+  "name": "ai-agent",
   "version": "0.8.2",
-  "description": "A lightweight minimal implementation of Claude Code CLI tool",
+  "description": "A lightweight AI coding agent CLI tool powered by LLM",
   "keywords": [
-    "claude",
     "ai",
-    "coding",
     "agent",
+    "coding",
     "cli",
     "development",
-    "automation"
+    "automation",
+    "llm"
   ],
-  "author": "MiMO-Claude",
+  "author": "yugongzhilv",
   "license": "MIT",
   "main": "dist/index.js",
   "bin": {
-    "mini-claude-code": "dist/index.js"
+    "ai-agent": "dist/index.js"
   },
   "files": [
     "dist/",

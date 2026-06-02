@@ -1,19 +1,19 @@
-# Mini Claude Code Agent
+# Ai Agent
 
 [English](README.md) | [中文](README_zh.md)
 
-Claude Code CLI 编程助手的最小实现版本。
+一个轻量级的 AI 编程助手 CLI 工具，由 LLM 驱动。
 
 ## 概述
 
-Mini Claude Code Agent 是 Claude Code 的简化版本，它允许 AI 模型通过一组强大的工具直接与您的代码库进行交互。它提供了一个命令行界面，使 Claude 能够：
+Ai Agent 是一个最小实现的 AI 编程助手，它允许 LLM 模型通过一组强大的工具直接与您的代码库进行交互。它提供了一个命令行界面，使 AI 能够：
 
 - 读取和写入文件
 - 执行 shell 命令
 - 编辑文件中的文本
 - 导航项目结构
 
-此工具旨在与 LLM 模型一起使用，以提供交互式编码体验，LLM 可以直接对您的代码库进行更改。
+此工具旨在与 LLM 模型一起使用，以提供交互式编码体验，AI 可以直接对您的代码库进行更改。
 
 ## 功能特性
 
@@ -56,7 +56,7 @@ export ANTHROPIC_MODEL="model-name"
 2. 使用 npx 直接运行（无需安装）：
 
 ```bash
-npx -y @scipen/mini-claude-code
+npx -y ai-agent
 ```
 
 就是这么简单！助手会启动，你可以开始与它交互。
@@ -64,14 +64,14 @@ npx -y @scipen/mini-claude-code
 ## 安装
 
 ```bash
-npm install -g @scipen/mini-claude-code
+npm install -g ai-agent
 ```
 
 或者从源码克隆并构建：
 
 ```bash
-git clone https://github.com/scipenai/mini-claude-code.git
-cd mini-claude-code
+git clone https://github.com/yugongzhilv/Ai-Agent.git
+cd Ai-Agent
 npm install
 ```
 
@@ -81,7 +81,7 @@ npm install
 
 ```bash
 export ANTHROPIC_API_KEY="your-api-key-here"
-export ANTHROPIC_BASE_URL="your-anthropic-compatable-api-base-url"
+export ANTHROPIC_BASE_URL="your-anthropic-compatible-api-base-url"
 export ANTHROPIC_MODEL="model-name"
 ```
 
@@ -138,7 +138,7 @@ npm start
 
 ### 上下文压缩
 
-Mini Claude Code 支持智能的上下文压缩功能，可以处理长对话的 token 限制问题：
+Ai Agent 支持智能的上下文压缩功能，可以处理长对话的 token 限制问题：
 
 - **自动压缩**：当 token 使用率达到 92% 时自动触发，透明地压缩对话历史为摘要
 - **手动压缩**：使用 `/compact` 命令手动压缩对话历史
@@ -169,7 +169,7 @@ Mini Claude Code 支持智能的上下文压缩功能，可以处理长对话的
 
 ## Skills 系统
 
-Mini Claude Code 支持 Anthropic Skills 规范，允许你安装和使用技能来扩展 AI 的能力。
+Ai Agent 支持 Anthropic Skills 规范，允许你安装和使用技能来扩展 AI 的能力。
 
 ### 什么是 Skills？
 
@@ -205,7 +205,7 @@ description: Description of what this skill does
 EOF
 ```
 
-3. 在 Mini Claude Code 中使用：
+3. 在 Ai Agent 中使用：
 
 ```bash
 /skills list              # 列出所有可用技能
@@ -219,7 +219,7 @@ EOF
 
 ## MCP 集成
 
-Mini Claude Code 支持 Model Context Protocol (MCP)，可以连接各种 MCP 服务器来扩展功能。
+Ai Agent 支持 Model Context Protocol (MCP)，可以连接各种 MCP 服务器来扩展功能。
 
 ### 配置 MCP 服务器
 
@@ -297,7 +297,7 @@ Result: wrote 26 bytes to hello.js
 - **安全命令白名单**：常见开发命令绕过检查以获得更好的性能
 - **详细的错误消息**：命令被阻止时提供清晰的反馈
 
-详细的安全信息，请参阅 [安全文档 ](docs/SECURITY_zh.md)
+详细的安全信息，请参阅 [安全文档](docs/SECURITY_zh.md)
 
 ## 开发
 

@@ -4,7 +4,7 @@
 
 ## Overview
 
-Mini Claude Code now includes a real-time status bar that displays key information about your session at a glance.
+Ai Agent now includes a real-time status bar that displays key information about your session at a glance.
 
 ## Status Bar Components
 

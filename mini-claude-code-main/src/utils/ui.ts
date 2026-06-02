@@ -45,7 +45,7 @@ export const ui = {
     // Formatted output methods
     printBanner(version: string, workdir: string, mcpStatus: string = '') {
         console.log('\n' + chalk.cyan('═'.repeat(60)));
-        console.log(chalk.cyan.bold(`  🤖 Mini Claude Code Agent`) + chalk.gray(` v${version}`));
+        console.log(chalk.cyan.bold(`  🤖 Ai Agent`) + chalk.gray(` v${version}`));
         console.log(chalk.dim(`  📁 Working Directory: ${workdir}`));
         if (mcpStatus) {
             console.log(chalk.green(`  ${this.icons.success} ${mcpStatus}`));

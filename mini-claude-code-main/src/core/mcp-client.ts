@@ -107,7 +107,7 @@ export class MCPClientManager {
         }
 
         const client = new Client({
-            name: "mini-claude-code",
+            name: "ai-agent",
             version: VERSION,
         }, {
             capabilities: {

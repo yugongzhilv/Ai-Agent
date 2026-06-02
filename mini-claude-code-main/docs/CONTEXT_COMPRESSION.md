@@ -4,7 +4,7 @@
 
 ## Overview
 
-Mini Claude Code now supports an intelligent context compression system to handle AI model token limitations. When conversation history becomes too long, the system can automatically or manually compress the conversation into a summary while preserving key information to ensure continuity in development work.
+Ai Agent now supports an intelligent context compression system to handle AI model token limitations. When conversation history becomes too long, the system can automatically or manually compress the conversation into a summary while preserving key information to ensure continuity in development work.
 
 ## Features
 

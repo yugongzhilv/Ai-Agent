@@ -2,7 +2,7 @@
 
 ## 命令执行安全
 
-Mini Claude Code 实现了全面的安全措施，以防止通过bash工具执行危险命令。
+Ai Agent 实现了全面的安全措施，以防止通过bash工具执行危险命令。
 
 ### 危险命令检测
 
@@ -148,7 +148,7 @@ export ANTHROPIC_MODEL="model-name"
 
 ## 最佳实践
 
-1. **以最小权限运行**：不要以root/管理员身份运行Mini Claude Code
+1. **以最小权限运行**：不要以root/管理员身份运行Ai Agent
 2. **审查命令**：在敏感环境中执行前始终审查命令
 3. **在隔离环境中使用**：考虑在Docker或VM中运行敏感项目
 4. **保持更新**：定期更新以获取最新的安全补丁
@@ -163,7 +163,7 @@ export ANTHROPIC_MODEL="model-name"
 3. 它可以发出网络请求（在允许的模式内）
 4. 复杂的命令链可能会绕过检测
 
-**请谨慎使用Mini Claude Code并进行适当监督。**
+**请谨慎使用Ai Agent并进行适当监督。**
 
 ## 报告安全问题
 

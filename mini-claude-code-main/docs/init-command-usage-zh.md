@@ -2,7 +2,7 @@
 
 ## 功能概述
 
-`/init` 命令是 mini-claude-code 的核心功能之一，它会让 AI 分析您的代码库并自动生成一个 `AGENTS.md` 文件，该文件包含：
+`/init` 命令是 ai-agent 的核心功能之一，它会让 AI 分析您的代码库并自动生成一个 `AGENTS.md` 文件，该文件包含：
 
 - 构建、测试、运行命令
 - 代码风格指南
@@ -15,11 +15,11 @@
 
 ### 1. 首次使用
 
-在项目根目录启动 mini-claude-code：
+在项目根目录启动 ai-agent：
 
 ```bash
 cd your-project
-mini-claude-code
+ai-agent
 ```
 
 如果项目中还没有 `AGENTS.md` 文件，启动时会看到提示：
@@ -124,7 +124,7 @@ AI 会检查以下文件来了解您的项目：
 - 补充项目特殊要求
 - 更新命令或流程
 
-修改后重启 mini-claude-code 即可生效。
+修改后重启 ai-agent 即可生效。
 
 ### 项目模板
 
@@ -220,7 +220,7 @@ git commit -m "Add project documentation for AI agents"
 解决方法：
 - 使用更明确的语言描述规范
 - 添加具体示例
-- 重启 mini-claude-code 确保加载最新内容
+- 重启 ai-agent 确保加载最新内容
 
 ### 文件过大
 
@@ -245,7 +245,7 @@ git commit -m "Add project documentation for AI agents"
 1. **新项目初始化**
    ```bash
    cd new-project
-   mini-claude-code
+   ai-agent
    # 看到 onboarding 提示
    ❯ /init
    # AI 生成 AGENTS.md
@@ -261,8 +261,8 @@ git commit -m "Add project documentation for AI agents"
    ```bash
    # 编辑 AGENTS.md
    vim AGENTS.md
-   # 重启 mini-claude-code
-   mini-claude-code
+   # 重启 ai-agent
+   ai-agent
    ```
 
 ## 总结

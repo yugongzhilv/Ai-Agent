@@ -2,7 +2,7 @@
 
 ## 概述
 
-Mini Claude Code 现在支持 MCP (Model Context Protocol)，允许你通过 MCP 服务器扩展 AI 助手的能力。
+Ai Agent 现在支持 MCP (Model Context Protocol)，允许你通过 MCP 服务器扩展 AI 助手的能力。
 
 ## 什么是 MCP？
 
@@ -58,7 +58,7 @@ npm run dev
 
 ### 传输方式
 
-Mini Claude Code 支持三种 MCP 传输方式：
+Ai Agent 支持三种 MCP 传输方式：
 
 #### 1. stdio 传输（本地进程）
 
@@ -413,6 +413,6 @@ AI 助手会自动选择合适的 MCP 工具来完成任务。
 
 ## 总结
 
-通过 MCP 集成，Mini Claude Code 可以连接到各种外部工具和服务，大大扩展了 AI 助手的能力。你可以根据项目需求灵活配置 MCP 服务器，创建强大的开发工作流。
+通过 MCP 集成，Ai Agent 可以连接到各种外部工具和服务，大大扩展了 AI 助手的能力。你可以根据项目需求灵活配置 MCP 服务器，创建强大的开发工作流。
 
 如有问题或建议，请访问项目 GitHub 仓库提交 issue。

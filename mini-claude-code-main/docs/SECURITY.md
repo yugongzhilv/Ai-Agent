@@ -2,7 +2,7 @@
 
 ## Command Execution Security
 
-Mini Claude Code implements comprehensive security measures to prevent dangerous command execution through the bash tool.
+Ai Agent implements comprehensive security measures to prevent dangerous command execution through the bash tool.
 
 ### Dangerous Command Detection
 
@@ -148,7 +148,7 @@ Conversation logs in `.mini-cc/messages/` do not include:
 
 ## Best Practices
 
-1. **Run with minimal privileges**: Don't run Mini Claude Code as root/administrator
+1. **Run with minimal privileges**: Don't run Ai Agent as root/administrator
 2. **Review commands**: Always review commands before execution in sensitive environments
 3. **Use in isolated environments**: Consider running in Docker or VMs for sensitive projects
 4. **Keep updated**: Update regularly to get the latest security patches
@@ -163,7 +163,7 @@ Conversation logs in `.mini-cc/messages/` do not include:
 3. It can make network requests (within the allowed patterns)
 4. Complex command chains might bypass detection
 
-**Use Mini Claude Code with appropriate caution and oversight.**
+**Use Ai Agent with appropriate caution and oversight.**
 
 ## Reporting Security Issues
 

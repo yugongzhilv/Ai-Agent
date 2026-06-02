@@ -2,7 +2,7 @@
 
 ## Overview
 
-Mini Claude Code now supports MCP (Model Context Protocol), allowing you to extend the AI assistant's capabilities through MCP servers.
+Ai Agent now supports MCP (Model Context Protocol), allowing you to extend the AI assistant's capabilities through MCP servers.
 
 ## What is MCP?
 
@@ -58,7 +58,7 @@ The application will automatically connect to the configured MCP servers when it
 
 ### Transport Types
 
-Mini Claude Code supports three MCP transport types:
+Ai Agent supports three MCP transport types:
 
 #### 1. stdio Transport (Local Process)
 

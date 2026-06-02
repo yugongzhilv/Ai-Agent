@@ -1,19 +1,19 @@
-# Mini Claude Code Agent
+# Ai Agent
 
 [English](README.md) | [中文](README_zh.md)
 
-A minimal implementation of the Claude Code CLI coding assistant.
+A lightweight AI coding agent CLI tool powered by LLM.
 
 ## Overview
 
-Mini Claude Code Agent is a simplified version of Claude Code that allows AI models to interact directly with your codebase through a powerful set of tools. It provides a command-line interface that enables Claude to:
+Ai Agent is a minimal implementation of an AI coding assistant that allows LLM models to interact directly with your codebase through a powerful set of tools. It provides a command-line interface that enables AI to:
 
 - Read and write files
 - Execute shell commands
 - Edit text in files
 - Navigate project structures
 
-This tool is designed to be used with LLM models to provide an interactive coding experience where the LLM can make direct changes to your codebase.
+This tool is designed to be used with LLM models to provide an interactive coding experience where the AI can make direct changes to your codebase.
 
 ## Features
 
@@ -56,7 +56,7 @@ export ANTHROPIC_MODEL="model-name"
 2. Run directly with npx (no installation needed):
 
 ```bash
-npx -y @scipen/mini-claude-code
+npx -y ai-agent
 ```
 
 That's it! The assistant will start and you can begin interacting with it.
@@ -64,14 +64,14 @@ That's it! The assistant will start and you can begin interacting with it.
 ## Installation
 
 ```bash
-npm install -g @scipen/mini-claude-code
+npm install -g ai-agent
 ```
 
 Or clone and build from source:
 
 ```bash
-git clone https://github.com/scipenai/mini-claude-code.git
-cd mini-claude-code
+git clone https://github.com/yugongzhilv/Ai-Agent.git
+cd Ai-Agent
 npm install
 ```
 
@@ -138,7 +138,7 @@ Type `exit` or `quit` to exit the program.
 
 ### Context Compression
 
-Mini Claude Code supports intelligent context compression to handle long conversation token limits:
+Ai Agent supports intelligent context compression to handle long conversation token limits:
 
 - **Automatic Compression**: Automatically triggers when token usage reaches 92%, transparently compressing conversation history into a summary
 - **Manual Compression**: Use `/compact` command to manually compress conversation history
@@ -169,7 +169,7 @@ For detailed information, please refer to [Status Bar Documentation](docs/STATUS
 
 ## Skills System
 
-Mini Claude Code supports the Anthropic Skills specification, allowing you to install and use skills to extend AI capabilities.
+Ai Agent supports the Anthropic Skills specification, allowing you to install and use skills to extend AI capabilities.
 
 ### What are Skills?
 
@@ -202,7 +202,7 @@ description: Description of what this skill does
 EOF
 ```
 
-3. Use in Mini Claude Code:
+3. Use in Ai Agent:
 ```bash
 /skills list              # List all available skills
 /skills read my-skill     # Read skill content
@@ -214,7 +214,7 @@ For detailed documentation, please refer to:
 
 ## MCP Integration
 
-Mini Claude Code supports Model Context Protocol (MCP), which allows you to connect to various MCP servers to extend functionality.
+Ai Agent supports Model Context Protocol (MCP), which allows you to connect to various MCP servers to extend functionality.
 
 ### Configuring MCP Servers
 
@@ -292,7 +292,7 @@ For detailed security information, see [Security Documentation](docs/SECURITY.md
 
 ### Version Management
 
-This project uses automated scripts for version management. 
+This project uses automated scripts for version management.
 
 Quick reference:
 

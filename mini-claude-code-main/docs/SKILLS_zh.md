@@ -1,6 +1,6 @@
 # Skills 系统
 
-Mini Claude Code 支持 Anthropic Skills 规范，允许你安装和使用技能来扩展 AI 的能力。
+Ai Agent 支持 Anthropic Skills 规范，允许你安装和使用技能来扩展 AI 的能力。
 
 ## 什么是 Skills？
 

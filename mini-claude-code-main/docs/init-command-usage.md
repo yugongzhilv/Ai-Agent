@@ -2,7 +2,7 @@
 
 ## Overview
 
-The `/init` command is one of the core features of mini-claude-code. It analyzes your codebase and automatically generates an `AGENTS.md` file that contains:
+The `/init` command is one of the core features of ai-agent. It analyzes your codebase and automatically generates an `AGENTS.md` file that contains:
 
 - Build, test, and run commands
 - Code style guidelines
@@ -15,11 +15,11 @@ Once created, the contents of `AGENTS.md` are automatically injected into every 
 
 ### 1. First Time Use
 
-Start mini-claude-code in your project root directory:
+Start ai-agent in your project root directory:
 
 ```bash
 cd your-project
-mini-claude-code
+ai-agent
 ```
 
 If there's no `AGENTS.md` file in the project yet, you'll see a prompt at startup:
@@ -124,7 +124,7 @@ You can directly edit the `AGENTS.md` file to:
 - Supplement project special requirements
 - Update commands or workflows
 
-Changes take effect after restarting mini-claude-code.
+Changes take effect after restarting ai-agent.
 
 ### Project Templates
 
@@ -220,7 +220,7 @@ Possible causes:
 Solutions:
 - Use more explicit language to describe conventions
 - Add concrete examples
-- Restart mini-claude-code to ensure latest content is loaded
+- Restart ai-agent to ensure latest content is loaded
 
 ### File Too Large
 
@@ -245,7 +245,7 @@ If `AGENTS.md` exceeds 1MB:
 1. **New Project Initialization**
    ```bash
    cd new-project
-   mini-claude-code
+   ai-agent
    # See onboarding prompt
    ❯ /init
    # AI generates AGENTS.md
@@ -261,8 +261,8 @@ If `AGENTS.md` exceeds 1MB:
    ```bash
    # Edit AGENTS.md
    vim AGENTS.md
-   # Restart mini-claude-code
-   mini-claude-code
+   # Restart ai-agent
+   ai-agent
    ```
 
 ## Summary
