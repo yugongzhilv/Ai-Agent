@@ -1,5 +1,10 @@
 # Ai Agent
 
+[![CI](https://github.com/yugongzhilv/Ai-Agent/actions/workflows/ci.yml/badge.svg)](https://github.com/yugongzhilv/Ai-Agent/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Node.js Version](https://img.shields.io/badge/node-%3E%3D16.0.0-brightgreen.svg)](https://nodejs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue.svg)](https://www.typescriptlang.org/)
+
 [English](README.md) | [中文](README_zh.md)
 
 A lightweight AI coding agent CLI tool powered by LLM.
